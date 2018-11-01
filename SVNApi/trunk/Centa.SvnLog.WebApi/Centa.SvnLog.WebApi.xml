@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Centa.SvnLog.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.AccountController">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.AccountController.#ctor(Centa.SvnLog.WebApi.Token.ITokenVerify,Centa.SvnLog.ApplicationService.Interface.IAccountService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="tokenService"></param>
+            <param name="accountService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.AccountController.GetToken(Centa.SvnLog.Dto.Request.Account.LoginRequestDto)">
+            <summary>
+            登录获取token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.AccountController.GetUserInfo(Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            用户信息
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.AccountController.LogOut">
+            <summary>
+            退出
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.CommonController">
+            <summary>
+            公共接口
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.CommonController.#ctor">
+            <summary>
+            IOC注入
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.CommonController.GetErrorCode">
+            <summary>
+            错误码列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.ProjectController">
+            <summary>
+            项目接口
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.ProjectController.#ctor(Centa.SvnLog.ApplicationService.Interface.IProjectService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="svnLogService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.ProjectController.GetProjectList(Centa.SvnLog.Dto.Request.Project.ProjectRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            项目列表
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.ProjectRelationController">
+            <summary>
+            项目接口
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.ProjectRelationController.#ctor(Centa.SvnLog.ApplicationService.Interface.IProjectRelationService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="projectRelationService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.ProjectRelationController.GetProjectTreeList(Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            项目列表
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.ProjectRelationController.GetProjectTreeList(Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationTreeRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            项目树
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.RevisionPublishController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.RevisionPublishController.#ctor(Centa.SvnLog.ApplicationService.Interface.IRevisionPublishService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="projectRelationService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.RevisionPublishController.GetRevisionPublishList(Centa.SvnLog.Dto.Request.SvnJenkins.RevisionPublishRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.StatisticsController">
+            <summary>
+            统计
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.StatisticsController.#ctor(Centa.SvnLog.ApplicationService.Interface.IStatisticsService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="projectRelationService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.StatisticsController.GetProjectTreeList(Centa.SvnLog.Dto.Request.ProjectRelation.ProjectStatisticsRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            项目树
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.SvnAccountController">
+            <summary>
+            svn用户接口
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnAccountController.#ctor(Centa.SvnLog.ApplicationService.Interface.ISvnUserService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="svnUserService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnAccountController.GetSvnUserList(Centa.SvnLog.Dto.Request.SvnUser.SvnUserRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            svn用户列表
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.SvnJenkinsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnJenkinsController.#ctor(Centa.SvnLog.ApplicationService.Interface.ISvnJenkinsService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="projectRelationService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnJenkinsController.GetSvnJenkinsList(Centa.SvnLog.Dto.Request.SvnJenkins.SvnJenkinsRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.SvnLogController">
+            <summary>
+            项目接口
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnLogController.#ctor(Centa.SvnLog.ApplicationService.Interface.ISvnLogService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="svnLogService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnLogController.GetSvnLogList(Centa.SvnLog.Dto.Request.SvnUser.SvnLogRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            svn日志列表
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnLogController.GetFileList(Centa.SvnLog.Dto.Request.SvnUser.SvnLogFileRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            svn文件列表
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnLogController.GetFileChange(Centa.SvnLog.Dto.Request.SvnUser.SvnLogFileChangeRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            文件变更
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnLogController.GetFileContent(Centa.SvnLog.Dto.Request.SvnUser.SvnLogFileChangeRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            文件内容
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SvnLogController.PublishRevision(Centa.SvnLog.Dto.Request.SvnJenkins.SvnJenkinsRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            版本发布
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Controllers.SystemAccountController">
+            <summary>
+            系统用户接口
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SystemAccountController.#ctor(Centa.SvnLog.ApplicationService.Interface.ISystemUserService)">
+            <summary>
+            IOC注入
+            </summary>
+            <param name="systemUserService"></param>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Controllers.SystemAccountController.GetSvnUserList(Centa.SvnLog.Dto.Request.Account.SystemUserRequestDto,Centa.SvnLog.WebApi.ModelBinder.TokenModel)">
+            <summary>
+            系统用户列表
+            </summary>
+            <param name="query"></param>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Filter.Action.SystemLogAttribute">
+            <summary>
+            日志属性，可以加在Controller和Action上
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Filter.Action.SystemLogAttribute.SystemLogActionFilterImpl.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            excute before action run 
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Filter.Action.TokenValidateAttribute">
+            <summary>
+            token验证，加上模型绑定，不需要在每个Action里写
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Filter.Exception.CustomExceptionFilterAttribute">
+            <summary>
+            异常过滤器
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.ModelBinder.TokenModel">
+            <summary>
+            token模型，注意：属性名称不要和action,controller参数相同
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.WebApi.ModelBinder.TokenModel.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.WebApi.ModelBinder.TokenModel.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.WebApi.ModelBinder.TokenModel.ValidateTo">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.WebApi.ModelBinder.TokenModel.IsUse">
+            <summary>
+            是否启用，1启用，0禁用
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.ModelBinder.TokenModelBinder">
+            <summary>
+            模型绑定，解析query的token
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.ModelBinder.TokenModelBinder.BindModelAsync(Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingContext)">
+            <summary>
+            请求header里传递参数token
+            </summary>
+            <param name="bindingContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.ModelBinder.TokenModelBinderProvider">
+            <summary>
+            Provider
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Swagger.FileUploadFilter">
+            <summary>
+            文件上传
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Swagger.ParameterFilter">
+            <summary>
+            swagger请求参数设置
+            模型绑定的TokenModel参数，swagger忽略掉，用token参数取而代之
+            参数排序（如果没有继承，只需要改变propertity顺序，但是有继承，就要设置order了）
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Swagger.ParameterFilter.SetDescription(Swashbuckle.AspNetCore.Swagger.IParameter)">
+            <summary>
+            修改字段描述
+            </summary>
+            <param name="parameter"></param>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Swagger.ParameterFilter.ParameterSortComparer">
+            <summary>
+            参数排序，参数格式：Order={序号},
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Swagger.ParameterFilter.ParameterSortComparer.GetSort(Swashbuckle.AspNetCore.Swagger.IParameter)">
+            <summary>
+            从注释里获取排序
+            </summary>
+            <param name="parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Swagger.SetVersionInPathFilter">
+            <summary>
+            路径上自动设置版本
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.WebApi.Token.ITokenVerify">
+            <summary>
+            token的生成和解析
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Token.ITokenVerify.WriteToken(Centa.SvnLog.Infrastructure.Model.AccountModel)">
+            <summary>
+            生成token
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Token.ITokenVerify.ReadToken(System.String)">
+            <summary>
+            解析token
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Token.TokenVerify.WriteToken(Centa.SvnLog.Infrastructure.Model.AccountModel)">
+            <summary>
+            生成Token
+            </summary>
+            <param name="account"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Centa.SvnLog.WebApi.Token.TokenVerify.ReadToken(System.String)">
+            <summary>
+            解析Token
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

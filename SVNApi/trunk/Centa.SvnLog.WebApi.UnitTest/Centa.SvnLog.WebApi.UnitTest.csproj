@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="WinInsider.System.Net.Http.Formatting" Version="1.0.5" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Centa.SvnLog.Dto\Centa.SvnLog.Dto.csproj" />
+    <ProjectReference Include="..\Centa.SvnLog.Infrastructure\Centa.SvnLog.Infrastructure.csproj" />
+    <ProjectReference Include="..\Centa.SvnLog.WebApi\Centa.SvnLog.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\svnProject\A+增量发布测试代码\SvnLogManagerApi\sourcecode\Centa.SvnLog.WebApi\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.json">
+      <publishTime>04/23/2018 16:09:50</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>12/06/2017 15:08:08</publishTime>
+    </File>
+    <File Include="Centa.CCHR.ApplicationService.dll">
+      <publishTime>05/16/2018 11:06:31</publishTime>
+    </File>
+    <File Include="Centa.CCHR.ApplicationService.pdb">
+      <publishTime>05/16/2018 11:06:31</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Common.dll">
+      <publishTime>05/10/2018 14:47:41</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Common.pdb">
+      <publishTime>05/10/2018 14:47:41</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Config.dll">
+      <publishTime>05/08/2018 10:20:25</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Config.pdb">
+      <publishTime>05/08/2018 10:20:25</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Dto.dll">
+      <publishTime>05/14/2018 17:05:47</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Dto.pdb">
+      <publishTime>05/14/2018 17:05:47</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Infrastructure.Data.dll">
+      <publishTime>05/10/2018 14:47:46</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Infrastructure.Data.pdb">
+      <publishTime>05/10/2018 14:47:46</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Infrastructure.dll">
+      <publishTime>05/16/2018 11:06:28</publishTime>
+    </File>
+    <File Include="Centa.CCHR.Infrastructure.pdb">
+      <publishTime>05/16/2018 11:06:28</publishTime>
+    </File>
+    <File Include="Centa.CCHR.WebApi.deps.json">
+      <publishTime>05/16/2018 11:06:52</publishTime>
+    </File>
+    <File Include="Centa.CCHR.WebApi.dll">
+      <publishTime>05/16/2018 11:06:39</publishTime>
+    </File>
+    <File Include="Centa.CCHR.WebApi.pdb">
+      <publishTime>05/16/2018 11:06:39</publishTime>
+    </File>
+    <File Include="Centa.CCHR.WebApi.PrecompiledViews.dll">
+      <publishTime>05/16/2018 11:06:48</publishTime>
+    </File>
+    <File Include="Centa.CCHR.WebApi.PrecompiledViews.pdb">
+      <publishTime>05/16/2018 11:06:48</publishTime>
+    </File>
+    <File Include="Centa.CCHR.WebApi.runtimeconfig.json">
+      <publishTime>05/16/2018 11:06:52</publishTime>
+    </File>
+    <File Include="Dapper.Contrib.dll">
+      <publishTime>11/25/2017 18:19:12</publishTime>
+    </File>
+    <File Include="Dapper.dll">
+      <publishTime>11/25/2017 18:18:42</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>02/02/2018 17:51:38</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Antiforgery.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.Core.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authorization.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authorization.Policy.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cors.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.DataProtection.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.DataProtection.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Diagnostics.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Hosting.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Hosting.Server.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Html.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.Extensions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.Features.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Localization.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.ApiExplorer.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Core.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Cors.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.DataAnnotations.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Formatters.Json.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Localization.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.Extensions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.RazorPages.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.TagHelpers.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll">
+      <publishTime>08/31/2017 16:27:50</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Versioning.dll">
+      <publishTime>08/31/2017 16:27:46</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.ViewFeatures.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Language.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Runtime.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.ResponseCaching.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Routing.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Routing.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.WebUtilities.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>02/02/2018 17:52:06</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Razor.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>02/02/2018 17:51:05</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>11/22/2017 10:48:10</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>11/22/2017 10:48:14</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Composite.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileSystemGlobbing.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Hosting.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Localization.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Localization.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.WebEncoders.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.Net.Http.Headers.dll">
+      <publishTime>02/20/2018 20:41:26</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>02/02/2018 17:51:37</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>02/02/2018 17:51:37</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>02/02/2018 17:51:37</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>02/02/2018 17:51:38</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>02/02/2018 17:51:38</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>02/02/2018 17:51:39</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>02/02/2018 17:51:39</publishTime>
+    </File>
+    <File Include="MiniProfiler.AspNetCore.dll">
+      <publishTime>10/30/2017 01:36:42</publishTime>
+    </File>
+    <File Include="MiniProfiler.AspNetCore.Mvc.dll">
+      <publishTime>10/30/2017 01:37:20</publishTime>
+    </File>
+    <File Include="MiniProfiler.Shared.dll">
+      <publishTime>10/30/2017 01:35:18</publishTime>
+    </File>
+    <File Include="netcoreapp2.0/Centa.CCHR.Dto.deps.json">
+      <publishTime>05/14/2018 17:04:31</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>06/18/2017 13:57:10</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>02/02/2018 17:51:42</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.dll">
+      <publishTime>04/07/2018 18:33:18</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>04/07/2018 18:33:10</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>04/07/2018 18:33:14</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>04/07/2018 18:33:16</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>02/02/2018 17:51:41</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>02/02/2018 17:51:41</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>02/02/2018 17:51:42</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>02/02/2018 17:51:42</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>02/02/2018 17:51:43</publishTime>
+    </File>
+    <File Include="System.Linq.Dynamic.Core.dll">
+      <publishTime>08/29/2017 20:17:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>05/16/2018 11:06:52</publishTime>
+    </File>
+    <File Include="wwwroot/web.config">
+      <publishTime>04/18/2018 10:24:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

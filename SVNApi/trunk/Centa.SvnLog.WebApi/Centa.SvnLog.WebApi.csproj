@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>Centa.SvnLog.WebApi</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>SampleWebApiAspNetCore</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Centa.SvnLog.WebApi.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591;1573</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>Centa.SvnLog.WebApi.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\**" />
+    <Content Remove="Views\**" />
+    <EmbeddedResource Remove="Views\**" />
+    <None Remove="Views\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AdminController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Dapper" Version="1.50.4" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" />
+    <PackageReference Include="MiniProfiler.AspNetCore" Version="4.0.0-alpha9-00206" />
+    <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.0.0-alpha9-00206" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="2.0.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.7.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Centa.SvnLog.ApplicationService\Centa.SvnLog.ApplicationService.csproj" />
+    <ProjectReference Include="..\Centa.SvnLog.Common\Centa.SvnLog.Common.csproj" />
+    <ProjectReference Include="..\Centa.SvnLog.Dto\Centa.SvnLog.Dto.csproj" />
+    <ProjectReference Include="..\Centa.SvnLog.Infrastructure.Model\Centa.SvnLog.Infrastructure.Model.csproj" />
+  </ItemGroup>
+
+</Project>

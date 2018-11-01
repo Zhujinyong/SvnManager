@@ -1,0 +1,1435 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Centa.SvnLog.Dto</name>
+    </assembly>
+    <members>
+        <member name="T:Centa.SvnLog.Dto.Request.Account.LoginRequestDto">
+            <summary>
+            登陆获取token
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.LoginRequestDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.LoginRequestDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.LoginRequestDto.IsDomainAccount">
+            <summary>
+            是否域账号
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.Account.SystemUserAddRequestDto">
+            <summary>
+            系统用户
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserAddRequestDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserAddRequestDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserAddRequestDto.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserAddRequestDto.IsUse">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserAddRequestDto.Picture">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.Account.SystemUserRequestDto">
+            <summary>
+            系统用户
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserRequestDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserRequestDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.Account.SystemUserUpdateRequestDto">
+            <summary>
+            系统用户
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserUpdateRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserUpdateRequestDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserUpdateRequestDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserUpdateRequestDto.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserUpdateRequestDto.IsUse">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Account.SystemUserUpdateRequestDto.Picture">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationAddRequestDto">
+            <summary>
+            项目
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationAddRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationAddRequestDto.ChildID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationAddRequestDto.ParentID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationDeleteRequestDto">
+            <summary>
+            删除项目关系
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationDeleteRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationRequestDto">
+            <summary>
+            项目树
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationRequestDto.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationTreeRequestDto">
+            <summary>
+            项目树
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationTreeRequestDto.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationUpdateRequestDto">
+            <summary>
+            项目关系
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationUpdateRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationUpdateRequestDto.ChildID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectRelationUpdateRequestDto.ParentID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.RevisionPublishAddRequestDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.RevisionPublishAddRequestDto.LogID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.RevisionPublishAddRequestDto.JenkinsID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.RevisionPublishAddRequestDto.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectStatisticsRequestDto">
+            <summary>
+            项目统计查询
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectStatisticsRequestDto.IDs">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectStatisticsRequestDto.BeginTime">
+            <summary>
+            @Order=5,开始时间，字符串，格式是："yyyy-MM-dd hh:mm:ss"
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectStatisticsRequestDto.EndTime">
+            <summary>
+            @Order=6,结束时间，字符串，格式是："yyyy-MM-dd hh:mm:ss"
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectSubmitUserStatisticsRequestDto">
+            <summary>
+            项目统计查询->提交的用户
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectSubmitUserStatisticsRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectSubmitUserStatisticsRequestDto.BeginTime">
+            <summary>
+            @Order=5,开始时间，字符串，格式是："yyyy-MM-dd hh:mm:ss"
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.ProjectSubmitUserStatisticsRequestDto.EndTime">
+            <summary>
+            @Order=6,结束时间，字符串，格式是："yyyy-MM-dd hh:mm:ss"
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsAddRequestDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsAddRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsAddRequestDto.ProjectRelationID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsAddRequestDto.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsAddRequestDto.JobName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsAddRequestDto.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsUpdateRequestDto">
+            <summary>
+            项目关系
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsUpdateRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsUpdateRequestDto.ProjectRelationID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsUpdateRequestDto.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsUpdateRequestDto.JobName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.ProjectRelation.SvnJenkinsUpdateRequestDto.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto">
+            <summary>
+            项目
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.Name">
+            <summary>
+            项目名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.Url">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.Type">
+            <summary>
+            1源代码，2产品文档
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.Description">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.Head">
+            <summary>
+            负责人
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.IsUse">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectAddRequestDto.Creator">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.Project.ProjectDeleteRequestDto">
+            <summary>
+            删除项目关系
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectDeleteRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.Project.ProjectRequestDto">
+            <summary>
+            项目
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectRequestDto.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto">
+            <summary>
+            项目
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.Name">
+            <summary>
+            项目名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.Url">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.Type">
+            <summary>
+            1源代码，2产品文档
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.Description">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.Head">
+            <summary>
+            负责人
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.IsUse">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.Project.ProjectUpdateRequestDto.Creator">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.SvnJenkins.RevisionPublishRequestDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnJenkins.RevisionPublishRequestDto.LogID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.SvnJenkins.SvnJenkinsRequestDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnJenkins.SvnJenkinsRequestDto.ProjectRelationID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.QueryPageDateRequestDto">
+            <summary>
+            页码时间请求参数
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.QueryPageDateRequestDto.PageIndex">
+            <summary>
+            @Order=3,页码，默认值1，如果传值-1，会返回所有记录
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.QueryPageDateRequestDto.PageSize">
+            <summary>
+            @Order=4,每页多少条记录，默认10
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.QueryDateRangeDto">
+            <summary>
+            日期查询参数，开始日期和结束日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.QueryDateRangeDto.BeginTime">
+            <summary>
+            @Order=5,开始修改时间，字符串，格式是："yyyy-MM-dd hh:mm:ss"，默认值"1900-01-01 00:00:00"
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.QueryDateRangeDto.EndTime">
+            <summary>
+            @Order=6,结束修改时间，字符串，格式是："yyyy-MM-dd hh:mm:ss"，默认值"9999-12-31 23:59:29"
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.SvnUser.SvnLogFileChangeRequestDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnLogFileChangeRequestDto.LogFileID">
+            <summary>
+            日志ID
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.SvnUser.SvnLogFileRequestDto">
+            <summary>
+            svn日志文件
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnLogFileRequestDto.LogID">
+            <summary>
+            日志ID
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.SvnUser.SvnLogRequestDto">
+            <summary>
+            svn日志
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnLogRequestDto.ProjectID">
+            <summary>
+            项目ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnLogRequestDto.UserID">
+            <summary>
+            svn用户ID
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.SvnUser.SvnUserAddRequestDto">
+            <summary>
+            svn用户
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserAddRequestDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserAddRequestDto.DomainAccount">
+            <summary>
+            域账号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserAddRequestDto.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.SvnUser.SvnUserRequestDto">
+            <summary>
+            svn用户
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserRequestDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserRequestDto.DomainAccount">
+            <summary>
+            域账号
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Request.SvnUser.SvnUserUpdateRequestDto">
+            <summary>
+            svn用户
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserUpdateRequestDto.ID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserUpdateRequestDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserUpdateRequestDto.DomainAccount">
+            <summary>
+            域账号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Request.SvnUser.SvnUserUpdateRequestDto.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Account.AccountResponseDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Account.AccountResponseDto.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Account.AccountResponseDto.Picture">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.CompanyResponseDto">
+            <summary>
+            公司代码
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.CompanyResponseDto.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.CompanyResponseDto.CompanyCode">
+            <summary>
+            公司代码
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.DataResponseDto">
+            <summary>
+            单个数据的返回格式
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.DataResponseDto.Data">
+            <summary>
+            单个数据
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Department.DepartmentAdjustResponseDto">
+            <summary>
+            部门调整单据
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentAdjustResponseDto.RowId">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentAdjustResponseDto.ModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentAdjustResponseDto.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentAdjustResponseDto.ParentID">
+            <summary>
+            父部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentAdjustResponseDto.DateBegin">
+            <summary>
+            开始日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentAdjustResponseDto.DateEnd">
+            <summary>
+            结束日期
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto">
+            <summary>
+            部门信息
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.DeptName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.HROC">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.ModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.DeptPath">
+            <summary>
+            部门路径
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.FlagDeleted">
+            <summary>
+            是否删除，1删除，0未删除
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.DateOpen">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.DateClosed">
+            <summary>
+            删除日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.FullName">
+            <summary>
+            部门全称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Department.DepartmentResponseDto.ParentID">
+            <summary>
+            父部门ID
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Employee.AJQHEmployeeResponseDto">
+            <summary>
+            安家趣花员工信息
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.AJQHEmployeeResponseDto.EmpName">
+            <summary>
+            员工姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.AJQHEmployeeResponseDto.Mobile">
+            <summary>
+            手机号码
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.AJQHEmployeeResponseDto.CompanyName">
+            <summary>
+            所属分公司
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto">
+            <summary>
+            职员申请单
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.RowId">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.EmpID">
+            <summary>
+            职员ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.ModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.AffairType">
+            <summary>
+            事务类型
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.PreDeptID">
+            <summary>
+            前部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.PrePositionID">
+            <summary>
+            前职位ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.CurDeptID">
+            <summary>
+            当前部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.CurPositionID">
+            <summary>
+            当前职位ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.FlagStatus">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.ValidedDate">
+            <summary>
+            生效日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.EmpNO">
+            <summary>
+            职员编号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.AdjustTypeID">
+            <summary>
+            AffairType取值异动的情况下，AdjustTypeID取值说明：1晋升，2降职，3转职
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.PreJobLevel">
+            <summary>
+            变动前职级
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.PreJobGrade">
+            <summary>
+            变动前档位
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.CurJobLevel">
+            <summary>
+            变动后职级
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustApplyResponseDto.CurJobGrade">
+            <summary>
+            变动后档位
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto">
+            <summary>
+            任职历史
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.RowId">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.EmpID">
+            <summary>
+            职员ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.InPositionDate">
+            <summary>
+            入职日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.DimissionDate">
+            <summary>
+            离职日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.FlagPrimary">
+            <summary>
+            主任职标记，1是0否
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.InGroupDate">
+            <summary>
+            进入集团日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.InCompanyDate">
+            <summary>
+            进入公司日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.InDeptDate">
+            <summary>
+            进入部门日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.ModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.AdjustType">
+            <summary>
+            异动类型
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.FlagRun">
+            <summary>
+            跑盘标记(1代表跑盘的任职历史，0代表正式入职的历史记录)
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.JobLevel">
+            <summary>
+            职级
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.IsOnDuty">
+            <summary>
+            是否在职，1是0否
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.PositionID">
+            <summary>
+            职位ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.PositionName">
+            <summary>
+            职位名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.HROC">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.DeptName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAdjustHistoryResponseDto.DeptPath">
+            <summary>
+            部门路径
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Employee.EmployeeAttachResponseDto">
+            <summary>
+            资料附表信息
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAttachResponseDto.EmpID">
+            <summary>
+            职员ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAttachResponseDto.EmpNO">
+            <summary>
+            职员工号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAttachResponseDto.FlagReJoin">
+            <summary>
+            是否二次入职，1是0否
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAttachResponseDto.FlagDimission">
+            <summary>
+            是否离职，1是0否
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAttachResponseDto.ModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeAttachResponseDto.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation">
+            <summary>
+            职员
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.Path">
+            <summary>
+            部门路径
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.FullName">
+            <summary>
+            部门全称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.DeptNo">
+            <summary>
+            部门编码
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.DeptName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.PositionName">
+            <summary>
+            职位名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.EmpID">
+            <summary>
+            职员ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.JobLevel">
+            <summary>
+            职级
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.FlagPrincipal">
+            <summary>
+            部门负责人职位标记(1负责人0非负责人)
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.FlagPrimary">
+            <summary>
+            主任职标记，1是0否
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.IsBelongToDepartment">
+            <summary>
+            属于标记，1是0否
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeBelongInfomation.ModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto">
+            <summary>
+            兼职信息
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.EmpID">
+            <summary>
+            职员ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.EmpNO">
+            <summary>
+            职员工号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.EmpName">
+            <summary>
+            职员姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.EmpTel">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.FlagDeleted">
+            <summary>
+            是否删除，1删除，0未删除
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.DomainAccount">
+            <summary>
+            域账号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.EmpStatus">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.EmpModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.IDCard">
+            <summary>
+            身份证
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.MD5IDCard18">
+            <summary>
+            加密后的身份证
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.InGroupDate">
+            <summary>
+            进入集团日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.InCompanyDate">
+            <summary>
+            进入公司日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.DimissionDate">
+            <summary>
+            离职日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.PositionID">
+            <summary>
+            职位ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.PositionName">
+            <summary>
+            职位名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.EmpPositionModDate">
+            <summary>
+            职位修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.DeptName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.DeptPath">
+            <summary>
+            部门路径
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.HROC">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.FlagPrincipal">
+            <summary>
+            是否负责人(1负责人，0非负责人)
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.JobLevel">
+            <summary>
+            职级
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeePartTimeResponseDto.JobGrade">
+            <summary>
+            档位
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto">
+            <summary>
+            职员信息
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.EmpID">
+            <summary>
+            职员ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.EmpNO">
+            <summary>
+            职员工号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.EmpName">
+            <summary>
+            职员姓名
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.EmpTel">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.FlagDeleted">
+            <summary>
+            是否删除，1删除，0未删除
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.DomainAccount">
+            <summary>
+            域账号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.EmpStatus">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.EmpModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.IDCard">
+            <summary>
+            身份证
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.MD5IDCard18">
+            <summary>
+            加密后的身份证
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.InGroupDate">
+            <summary>
+            进入集团日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.InCompanyDate">
+            <summary>
+            进入公司日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.DimissionDate">
+            <summary>
+            离职日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.PositionID">
+            <summary>
+            职位ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.PositionName">
+            <summary>
+            职位名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.EmpPositionModDate">
+            <summary>
+            职位修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.DeptName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.DeptPath">
+            <summary>
+            部门路径
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.HROC">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.DateBirth">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.Education">
+            <summary>
+            最高学历
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.NativePlace">
+            <summary>
+            籍贯
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.HomeAddress">
+            <summary>
+            户口所在地
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.FlagPrincipal">
+            <summary>
+            是否部门负责人(1负责人，0非负责人)
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.JobLevel">
+            <summary>
+            职级
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Employee.EmployeeResponseDto.JobGrade">
+            <summary>
+            档位
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.PageResponseDto">
+            <summary>
+            有数据的返回格式
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.PageResponseDto.Page">
+            <summary>
+            分页
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.PageDto">
+            <summary>
+            分页
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.PageDto.PageSize">
+            <summary>
+            每页多少条数据
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.PageDto.PageIndex">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.PageDto.Total">
+            <summary>
+            总共多少条数据
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.Position.PostionResponseDto">
+            <summary>
+            职位信息
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.PositionId">
+            <summary>
+            职位ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.PositionName">
+            <summary>
+            职位名称
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.ParentID">
+            <summary>
+            父职位ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.FlagDeleted">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.FlagPrincipal">
+            <summary>
+            部门负责人职位标记(1负责人0非负责人)
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.ModDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.JobLevel">
+            <summary>
+            职级
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.JobGrade">
+            <summary>
+            档位
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.Number">
+            <summary>
+            编制
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.SortOrder">
+            <summary>
+            显示顺序
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.FlagDeptDirect">
+            <summary>
+            部门直属职位
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.Position.PostionResponseDto.Path">
+            <summary>
+            职位路径
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.ResponseDto">
+            <summary>
+            接口返回格式（不带数据的）
+            </summary>
+        </member>
+        <member name="M:Centa.SvnLog.Dto.Response.ResponseDto.#ctor(Centa.SvnLog.Infrastructure.Model.Enum.StatusCodeEnum,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="status"></param>
+            <param name="message"></param>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.ResponseDto.Status">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.ResponseDto.Message">
+            <summary>
+            提示信息
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.ResponseDto.Performance">
+            <summary>
+            性能
+            </summary>
+        </member>
+        <member name="T:Centa.SvnLog.Dto.Response.TokenResponseDto">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.TokenResponseDto.Token">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:Centa.SvnLog.Dto.Response.TokenResponseDto.ExpireIn">
+            <summary>
+            有效期，单位秒
+            </summary>
+        </member>
+    </members>
+</doc>

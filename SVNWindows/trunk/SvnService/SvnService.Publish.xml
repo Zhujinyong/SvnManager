@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\projects\SvnService\publish" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/SvnService.pdb" publishTime="10/31/2018 14:22:26" />
+    <file relUrl="bin/Centa.Svn.dll" publishTime="10/31/2018 14:22:26" />
+    <file relUrl="bin/SharpSvn.dll" publishTime="10/26/2018 16:31:03" />
+    <file relUrl="Web.config" publishTime="10/31/2018 14:40:55" />
+    <file relUrl="bin/Newtonsoft.Json.Net20.dll" publishTime="10/26/2018 16:31:05" />
+    <file relUrl="bin/SvnService.dll" publishTime="10/31/2018 14:22:26" />
+    <file relUrl="SvnService.asmx" publishTime="10/26/2018 16:31:03" />
+    <file relUrl="packages.config" publishTime="10/26/2018 16:31:03" />
+    <file relUrl="bin/Centa.Svn.pdb" publishTime="10/31/2018 14:22:26" />
+    <file relUrl="bin/SharpPlink-Win32.svnExe" publishTime="10/26/2018 16:31:03" />
+  </publishProfile>
+</publishData>
