@@ -1,16 +1,13 @@
-
-
-
-
-# 解决npm速度慢的问题
+相关命令：
+安装包
 npm install --registry=https://registry.npm.taobao.org
 
-# Serve with hot reload at localhost:9528
+运行
 npm run dev
 
-# Build for production with minification
+构建
 npm run build
 
-# Build for production and view the bundle analyzer report
+打包
 npm run build --report
 
