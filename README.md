@@ -52,7 +52,7 @@ Api
 
 ![](media/9818b8e13f4b1833ef00a1ce2c66f5c9.png)
 
-![](media/7074b31d1e7cd66b460d1f15ac823a1a.png)
+![](media/7074b31d1e7cd66b460d1f15ac823a1.png)
 
 ![](media/5bb5de06b4d258eba98ba8f4944b931c.png)
 
